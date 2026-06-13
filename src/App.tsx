@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./App.css";
 
 function App(){
   const [pokemon, setPokemon] = useState<any[]>([]); 
@@ -15,7 +16,18 @@ function App(){
   return (
     <div>
       <h1>Pokedex</h1>
-      <p>Pokemon cargados: {pokemon.length}</p>
+      <div className="grid">
+        {pokemon.map((p, index) => {
+          const id = index + 1;
+          const imagen = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
+          return (
+            <div className="card" key={p.name}>
+              <img src={imagen} alt={p.name}/>
+              <p>{p.name}</p>
+            </div>
+          )
+        })}
+      </div>
     </div>
   );
 }
