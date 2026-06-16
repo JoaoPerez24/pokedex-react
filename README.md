@@ -4,6 +4,10 @@ Aplicación web de una sola página (SPA) que consume la [PokéAPI](https://poke
 
 Proyecto realizado como prueba técnica.
 
+
+[Ver demo en vivo](https://pokedex-react-pi-silk.vercel.app/)
+
+
 ## Funcionalidades
 
 - Listado de los 151 Pokémon de la primera generación, con imagen y nombre.
@@ -11,9 +15,6 @@ Proyecto realizado como prueba técnica.
 - Vista de detalle de cada Pokémon (imagen, tipos, altura y peso) al seleccionarlo.
 - Manejo de los estados de interfaz: cargando, error, lista vacía y sin resultados.
 
-## Demo en vivo
-
-[Ver demo en vivo](https://pokedex-react-pi-silk.vercel.app/)
 
 ## Stack
 
