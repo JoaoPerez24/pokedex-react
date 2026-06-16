@@ -29,7 +29,7 @@ function App() {
 
   if(seleccionado !== null){
     return (
-      <div className="app">
+      <div className="app vista-detallada">
         <button onClick={() => setSeleccionado(null)}>Volver</button>
 
         {detalle === null ? (
@@ -65,6 +65,7 @@ function App() {
               <div className="card" key={p.name} onClick={() => {setSeleccionado(p.name); setDetalle(null);}}>
                 <img src={imagen} alt={p.name} />
                 <p>{p.name}</p>
+                <p>Nº{id.toString().padStart(4, "0")}</p>
               </div>
             )
           })}
