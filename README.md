@@ -39,7 +39,7 @@ Luego abre la dirección que indique la terminal (por defecto `http://localhost:
 
 ### ¿Por qué la PokéAPI?
 
-Elegí la PokéAPI por dos motivos. El primero, práctico: ya había trabajado con ella en ejercicios del grado, así que conocía la estructura de sus datos y pude centrar el esfuerzo en aprender React —que era lo nuevo para mí— en lugar de enfrentarme a la vez a una API desconocida. El segundo, personal: es un dominio que me resulta cercano y motivador, y eso me ayudó a cuidar más el resultado. Además es gratuita, no requiere registro ni clave de API, y devuelve datos ricos (imágenes, tipos, estadísticas) ideales para montar tanto un listado como una vista de detalle.
+Elegí la PokéAPI por dos motivos. El primero, práctico: ya había trabajado con ella en ejercicios del grado, así que conocía la estructura de sus datos y pude centrar el esfuerzo en aprender React que era lo nuevo para mí en lugar de enfrentarme a la vez a una API desconocida. El segundo, personal: es un dominio que me resulta cercano y motivador, y eso me ayudó a cuidar más el resultado. Además es gratuita, no requiere registro ni clave de API, y devuelve datos ricos (imágenes, tipos, estadísticas) ideales para montar tanto un listado como una vista de detalle.
 
 ### Stack: React + TypeScript con Vite
 
