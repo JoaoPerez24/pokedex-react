@@ -11,6 +11,10 @@ Proyecto realizado como prueba técnica.
 - Vista de detalle de cada Pokémon (imagen, tipos, altura y peso) al seleccionarlo.
 - Manejo de los estados de interfaz: cargando, error, lista vacía y sin resultados.
 
+## Demo en vivo
+
+[Ver demo en vivo](https://pokedex-react-pi-silk.vercel.app/)
+
 ## Stack
 
 | Capa | Tecnología |
