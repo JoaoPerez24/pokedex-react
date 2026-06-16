@@ -39,7 +39,7 @@ input {
   border-radius: 10px;
   border: 1px solid #2c3650;
   background:#2d3038;
-  color: var(--texto);
+  color: wheat;
   font-size: 1rem;
   outline: none;
   transition: border-color 0.2s;
